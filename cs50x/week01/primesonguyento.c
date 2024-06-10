@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 bool prime(int numbermintomax);
-
+int i;
 int main(void)
 {
 	int min;
@@ -37,10 +37,9 @@ bool prime(int numbermintomax)
 		return false;
 	}
 
-	int a;
-	for (a = 2; a < numbermintomax; a++)
+	for (i = 2; i < numbermintomax; i++)
 	{
-		if (numbermintomax % a == 0)
+		if (numbermintomax % i == 0)
 		{
 		return false;
 		}
