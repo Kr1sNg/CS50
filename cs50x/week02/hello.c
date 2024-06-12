@@ -2,5 +2,7 @@
 
 int main(void)
 {
-	printf("hello, world\n");
+	int myAge;
+	scanf("%i", &myAge);
+	printf("Mon age est: %i\n", myAge);
 }
